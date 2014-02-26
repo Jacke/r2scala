@@ -1,0 +1,20 @@
+Package: r2scala
+Type: Package
+Title: Export objects from R too Scala
+Version: 0.1
+Date: 2014-02-23
+Author: Guy Dawson
+Maintainer: Guy Dawson <gccdawson@gmail.com>
+Imports:
+    assertthat
+Description: Currently, the package provides functions to export decision trees
+    contructed in R, to Scala
+License: GL-3
+Collate:
+    'as_xml.R'
+    'extract_nodes.R'
+    'get_tree.R'
+    'utils.R'
+    'write_xml.R'
+    'r2scala.R'
+    'write_random_forest.R'

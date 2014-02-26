@@ -1,0 +1,10 @@
+.RData
+.RHistory
+*.Rproj
+.gitignore
+*.md
+.Rprofile
+viginettes
+scala
+^.*\.Rproj$
+^\.Rproj\.user$
