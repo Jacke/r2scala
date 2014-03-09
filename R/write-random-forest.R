@@ -31,11 +31,8 @@ as.nodes.randomForest_tree <- function(.data) {
 
 # coerce a list of nodes to xml -----------------------------------------------------------------------
 as.xml.nodes <- function(.data, .id = NULL) {
-  if (is.null(.id)) start_tag <- '<tree>'
-  else start_tag <- paste0('<tree id=', add_quotes(.id), '>')
-  
-  empty_node <- function(.node) do.call(empty_element, c('node', as.list(.node)))
-  
+  start_tag <- start_id_tag('tree', .id)
+  empty_node <- function(.node) do.call(empty_element_tag, c('node', as.list(.node)))
   xml_nodes <- c(
     start_tag,
     paste(lapply(.data, empty_node), sep = '\n'),
@@ -57,16 +54,13 @@ as.xml.nodes <- function(.data, .id = NULL) {
 #' @export
 write.random_forest <- function(.model, .file_path, .id = NULL, .progress = NULL) {
   assert_that(class(.model) == 'randomForest')
-  
-  if (is.null(.id)) start_tag <- '<random_forest>'
-  else start_tag <- paste0('<random_forest id=', add_quotes(.id), '>')
+  start_tag <- start_id_tag('random_forest', .id)
   
   if (is.null(.progress)) .progress <- function(...) NULL
   
   write(start_tag, .file_path)
   
   ntree <- .model$ntree
-  
   for (i in seq_len(ntree)) {
     tree <- get_tree(.model, i)
     nodes <- as.nodes(tree)

@@ -6,9 +6,14 @@ add_quotes <- function(x) paste0('\"', x, '\"')
 
 add_class <- function(.data, .class) structure(.data, class = c(.class, class(.data)))
 
-empty_element <- function(.tag, ...) {
+empty_element_tag <- function(.tag, ...) {
   key_vals <- list(...)
   keys <- paste0(names(key_vals), "=")
   vals <- add_quotes(key_vals)
   do.call(paste, c(paste0('<', .tag, ' '), Map(paste0, keys, vals), '/>'))
+}
+
+start_id_tag <- function(.tag, .id = NULL) {
+  if (is.null(.id)) paste0('<', .tag, '>')
+  else paste0('<', .tag, ' id=', add_quotes(.id), '>')
 }
