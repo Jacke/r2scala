@@ -1,0 +1,35 @@
+Decision Trees
+--------------
+
+_Notation and terminology:_
+
+Given a tree $T$ and a node $n \in T$:
+
+* let $T(n)$ denote the sub-tree of $T$ with root $n$
+
+* let $n_l$ and $n_r$ denote the left and right child nodes of $n$ receptively
+
+* let $T_l(n) = T(n_l)$ and $T_r(n) = T(n_r)$
+
+* let $d(n)$ and $w(n)$ denote the depth and width of $n$ respectively
+
+* write $n = (d, w)$ to denote a node of depth $d$ and width $w$
+
+* start indexes at 0, so e.g. a root node will be of the form:
+  * $n = (0, 0)$ with child nodes:
+  * $n_l = (1, 0)$
+  * $n_r = (1, 1)$
+  
+_Lemma:_ given a node $n = (d, w)$:
+
+* $d(n_l) = d(n_r) = d + 1$
+
+* $w(n_l) = w(n_r) - 1 = 2w(n)$
+
+_Definition:_ given a node $n = (d, w)$, the _right-boundary_ of $n$ at depth $d^* > d$ is the greatest width in layer $d^* - d$ of tree $T_r(n)$ 
+
+_Lemma:_ given a node $n = (d, w)$, its right-boundary at depth $d^*$ is equal to:
+
+$$2^{d^* - d - 1}(2w + 1)$$
+
+_Proof:_ the term $2w + 1$ accounts for the first level down, after which the right-boundary is doubled for each layer down.
