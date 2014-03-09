@@ -1,0 +1,1 @@
+as.xml <- function(.data, ...) UseMethod('as.xml')

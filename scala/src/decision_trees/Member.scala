@@ -1,10 +1,10 @@
 package decision_trees
 
-case class Member(id: String, metrics: List[String], values: List[Double]) {
+case class Member(id: String, metrics: List[Int], values: List[Double]) {
   
   require(metrics.length == values.length)
 
   private val map = metrics.zip(values).toMap
   
-  def apply(metric: String) = map(metric)
+  def apply(metric: Int) = map(metric)
 }

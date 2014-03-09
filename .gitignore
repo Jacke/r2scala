@@ -3,3 +3,7 @@
 *.Rproj
 viginettes
 .RData
+.metadata
+large_rf.xml
+.Rprofile
+archive.R

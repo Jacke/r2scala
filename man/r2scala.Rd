@@ -2,8 +2,8 @@
 \name{r2scala}
 \alias{r2scala}
 \alias{r2scala-package}
-\title{caretaddon}
+\title{r2scala package}
 \description{
-  caretaddon
+  r2scala package
 }
 
