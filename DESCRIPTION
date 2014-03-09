@@ -11,10 +11,10 @@ Description: Currently, the package provides functions to export decision trees
     contructed in R, to Scala
 License: GL-3
 Collate:
-    'as_xml.R'
-    'extract_nodes.R'
     'get_tree.R'
     'utils.R'
-    'write_xml.R'
     'r2scala.R'
-    'write_random_forest.R'
+    'as-nodes.R'
+    'as-xml.R'
+    'write-random-forest.R'
+    'write-xml.R'

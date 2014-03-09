@@ -1,0 +1,1 @@
+as.nodes <- function(.model, ...) UseMethod("as.nodes")

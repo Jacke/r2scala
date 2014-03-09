@@ -2,82 +2,20 @@
 <tree id="1">
 <node metric="3" threshold="2.45" prediction="0" depth="0" width="0" leaf_node="0" />
 <node metric="0" threshold="0" prediction="1" depth="1" width="0" leaf_node="1" />
-<node metric="4" threshold="1.65" prediction="0" depth="1" width="1" leaf_node="0" />
-<node metric="4" threshold="1.35" prediction="0" depth="2" width="2" leaf_node="0" />
-<node metric="3" threshold="4.85" prediction="0" depth="2" width="3" leaf_node="0" />
-<node metric="0" threshold="0" prediction="2" depth="3" width="4" leaf_node="1" />
-<node metric="1" threshold="7.1" prediction="0" depth="3" width="5" leaf_node="0" />
-<node metric="1" threshold="5.4" prediction="0" depth="3" width="6" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="3" width="7" leaf_node="1" />
-<node metric="1" threshold="6.15" prediction="0" depth="4" width="10" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="11" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="12" leaf_node="1" />
-<node metric="1" threshold="6.05" prediction="0" depth="4" width="13" leaf_node="0" />
-<node metric="2" threshold="2.65" prediction="0" depth="5" width="20" leaf_node="0" />
-<node metric="3" threshold="5" prediction="0" depth="5" width="21" leaf_node="0" />
-<node metric="0" threshold="0" prediction="2" depth="5" width="26" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="5" width="27" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="6" width="40" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="6" width="41" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="6" width="42" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="6" width="43" leaf_node="1" />
-</tree>
-<tree id="2">
-<node metric="3" threshold="2.45" prediction="0" depth="0" width="0" leaf_node="0" />
-<node metric="0" threshold="0" prediction="1" depth="1" width="0" leaf_node="1" />
 <node metric="4" threshold="1.75" prediction="0" depth="1" width="1" leaf_node="0" />
-<node metric="3" threshold="4.95" prediction="0" depth="2" width="2" leaf_node="0" />
+<node metric="1" threshold="7" prediction="0" depth="2" width="2" leaf_node="0" />
 <node metric="1" threshold="5.95" prediction="0" depth="2" width="3" leaf_node="0" />
-<node metric="4" threshold="1.65" prediction="0" depth="3" width="4" leaf_node="0" />
-<node metric="4" threshold="1.6" prediction="0" depth="3" width="5" leaf_node="0" />
-<node metric="2" threshold="3.1" prediction="0" depth="3" width="6" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="3" width="7" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="8" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="9" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="10" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="11" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="12" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="13" leaf_node="1" />
-</tree>
-<tree id="3">
-<node metric="4" threshold="0.7" prediction="0" depth="0" width="0" leaf_node="0" />
-<node metric="0" threshold="0" prediction="1" depth="1" width="0" leaf_node="1" />
-<node metric="4" threshold="1.75" prediction="0" depth="1" width="1" leaf_node="0" />
-<node metric="3" threshold="4.95" prediction="0" depth="2" width="2" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="2" width="3" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="3" width="4" leaf_node="1" />
-<node metric="4" threshold="1.55" prediction="0" depth="3" width="5" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="10" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="11" leaf_node="1" />
-</tree>
-<tree id="4">
-<node metric="3" threshold="2.45" prediction="0" depth="0" width="0" leaf_node="0" />
-<node metric="0" threshold="0" prediction="1" depth="1" width="0" leaf_node="1" />
-<node metric="4" threshold="1.75" prediction="0" depth="1" width="1" leaf_node="0" />
-<node metric="3" threshold="4.95" prediction="0" depth="2" width="2" leaf_node="0" />
-<node metric="0" threshold="0" prediction="3" depth="2" width="3" leaf_node="1" />
-<node metric="4" threshold="1.65" prediction="0" depth="3" width="4" leaf_node="0" />
-<node metric="4" threshold="1.55" prediction="0" depth="3" width="5" leaf_node="0" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="8" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="9" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="10" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="4" width="11" leaf_node="1" />
-</tree>
-<tree id="5">
-<node metric="4" threshold="0.8" prediction="0" depth="0" width="0" leaf_node="0" />
-<node metric="0" threshold="0" prediction="1" depth="1" width="0" leaf_node="1" />
-<node metric="3" threshold="4.95" prediction="0" depth="1" width="1" leaf_node="0" />
-<node metric="4" threshold="1.65" prediction="0" depth="2" width="2" leaf_node="0" />
-<node metric="4" threshold="1.75" prediction="0" depth="2" width="3" leaf_node="0" />
-<node metric="0" threshold="0" prediction="2" depth="3" width="4" leaf_node="1" />
+<node metric="4" threshold="1.35" prediction="0" depth="3" width="4" leaf_node="0" />
 <node metric="0" threshold="0" prediction="3" depth="3" width="5" leaf_node="1" />
-<node metric="4" threshold="1.55" prediction="0" depth="3" width="6" leaf_node="0" />
+<node metric="3" threshold="4.85" prediction="0" depth="3" width="6" leaf_node="0" />
 <node metric="0" threshold="0" prediction="3" depth="3" width="7" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="4" width="12" leaf_node="1" />
-<node metric="4" threshold="1.65" prediction="0" depth="4" width="13" leaf_node="0" />
-<node metric="2" threshold="2.85" prediction="0" depth="5" width="26" leaf_node="0" />
-<node metric="0" threshold="0" prediction="2" depth="5" width="27" leaf_node="1" />
-<node metric="0" threshold="0" prediction="2" depth="6" width="52" leaf_node="1" />
-<node metric="0" threshold="0" prediction="3" depth="6" width="53" leaf_node="1" />
+<node metric="0" threshold="0" prediction="2" depth="4" width="8" leaf_node="1" />
+<node metric="1" threshold="6.15" prediction="0" depth="4" width="9" leaf_node="0" />
+<node metric="0" threshold="0" prediction="2" depth="4" width="12" leaf_node="1" />
+<node metric="0" threshold="0" prediction="3" depth="4" width="13" leaf_node="1" />
+<node metric="2" threshold="2.65" prediction="0" depth="5" width="18" leaf_node="0" />
+<node metric="0" threshold="0" prediction="2" depth="5" width="19" leaf_node="1" />
+<node metric="0" threshold="0" prediction="3" depth="6" width="36" leaf_node="1" />
+<node metric="0" threshold="0" prediction="2" depth="6" width="37" leaf_node="1" />
 </tree>
 </random_forest>

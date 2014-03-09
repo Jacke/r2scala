@@ -4,7 +4,7 @@ import scala.xml.{Node, MetaData}
 
 object HasAttribute {
   
-  private def constructor(string: String, node: Node, comparer: MetaData => Boolean) = 
+  private def constructor(string: String, node: Node, comparer: MetaData => Boolean): Boolean = 
     node.attributes.exists(comparer(_))
   
   def key(key: String)(node: Node) =
@@ -13,7 +13,7 @@ object HasAttribute {
   def value(value: String)(node: Node) = 
     constructor(value, node, _.value.text == value)
   
-  def pair(key: String, value: String)(node: Node) {
+  def pair(key: String, value: String)(node: Node): Boolean = {
     node.attributes.exists(att => att.key == key && att.value.text == value)
   }
 }

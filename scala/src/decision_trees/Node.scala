@@ -7,7 +7,7 @@ abstract class Node {
   val width: Int
 }
 
-case class NonLeaf(metric: String, threshold: Double, depth: Int, width: Int) extends Node
+case class NonLeaf(metric: Int, threshold: Double, depth: Int, width: Int) extends Node
 
 case class Leaf(prediction: Int, depth: Int, width: Int) extends Node
 
